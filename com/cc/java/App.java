@@ -5,7 +5,7 @@ public class App {
     public static void main(String[] args) {
 
         Cat cat = new Cat();
-        output("Blick von aussen: " + cat);
+        output("Blick von aussen: " + cat);  // "Blick von aussen: " ist ein Objekt der Klasse String
         output("Blick von innen: " + cat.getInstanceVariable());
 
         output("-----------------------");
