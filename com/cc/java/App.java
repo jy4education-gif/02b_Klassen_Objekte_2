@@ -18,7 +18,9 @@ public class App {
         output("-----------------------");
 
         Cat cat2 = new Cat("Alonzo", "grey", 35);
-       
+        
+        cat2.setAge(36);        // Zugriff über Setter
+
         output(cat2.getFirstName());
         output(cat2.getFurColor());
         output(Integer.toString(cat2.getAge())); // explizite Typumwandlung
