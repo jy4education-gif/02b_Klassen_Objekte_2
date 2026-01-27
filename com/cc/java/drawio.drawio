@@ -1,12 +1,12 @@
 <mxfile host="65bd71144e">
     <diagram id="CatAppDiagram" name="Page-1">
-        <mxGraphModel dx="671" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="691" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="App" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLastChild=0;collapsible=1;marginBottom=0;html=1;" parent="1" vertex="1" collapsed="1">
-                    <mxGeometry x="40" y="40" width="60" height="30" as="geometry">
-                        <mxRectangle x="40" y="40" width="200" height="80" as="alternateBounds"/>
+                <mxCell id="2" value="App" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLastChild=0;collapsible=1;marginBottom=0;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="200" height="80" as="geometry">
+                        <mxRectangle x="40" y="40" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;strokeColor=inherit;html=1;" parent="2" vertex="1">
@@ -15,9 +15,9 @@
                 <mxCell id="4" value="+ main(args: String[])$&#xa;+ output(outputStr: String)$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="2" vertex="1">
                     <mxGeometry y="34" width="200" height="46" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Cat" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLastChild=0;collapsible=1;marginBottom=0;html=1;" parent="1" vertex="1" collapsed="1">
-                    <mxGeometry x="320" y="40" width="60" height="30" as="geometry">
-                        <mxRectangle x="320" y="40" width="240" height="230" as="alternateBounds"/>
+                <mxCell id="5" value="Cat" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLastChild=0;collapsible=1;marginBottom=0;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="30" width="240" height="230" as="geometry">
+                        <mxRectangle x="320" y="40" width="60" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="6" value="- firstName: String&#xa;- furColor: String&#xa;- age: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="5" vertex="1">
@@ -26,7 +26,7 @@
                 <mxCell id="7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=8;strokeColor=inherit;html=1;" parent="5" vertex="1">
                     <mxGeometry y="90" width="240" height="8" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="+ Cat(firstName, furColor, age)&#xa;+ getFirstName(): String&#xa;+ getFurColor(): String&#xa;+ getAge(): int&#xa;+ setAge(age: int): void&#xa;- checkPermission(): boolean&#xa;+ getInstanceVariable(): Cat" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="5" vertex="1">
+                <mxCell id="8" value="+ Cat(firstName, furColor, age)&lt;br&gt;+ getFirstName(): String&lt;br&gt;+ getFurColor(): String&lt;br&gt;+ getAge(): int&lt;br&gt;+ setAge(int): void&lt;br&gt;- checkPermission(): boolean&lt;br&gt;+ getInstanceVariable(): Cat" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="5" vertex="1">
                     <mxGeometry y="98" width="240" height="132" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="instantiates" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2" target="5" edge="1">
