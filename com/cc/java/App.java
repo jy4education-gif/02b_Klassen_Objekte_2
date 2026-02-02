@@ -2,12 +2,11 @@ package com.cc.java;
 
 public class App {
     
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
         // 2. Iteration
         // private Felder in Cat
-        // Instanziierung und Wertzuweisung komboniert ---> costum Konstruktor
-
+        // Instanziierung und Wertzuweisung kombiniert ---> costum Konstruktor
 
         Cat cat = new Cat("Grizabella", "white", 29);
        
@@ -26,9 +25,8 @@ public class App {
         output(Integer.toString(cat2.getAge())); // explizite Typumwandlung
     }
 
-         public static void output(String outputStr){
+        public static void output(String outputStr){
         System.out.println(outputStr);
-    }
-
+        }
 
 }
